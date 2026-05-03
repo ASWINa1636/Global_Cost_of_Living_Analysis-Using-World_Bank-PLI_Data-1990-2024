@@ -1,10 +1,34 @@
-# Global Cost of Living Analysis using Price Level Index (PLI)
+# <center>Global Cost of Living Analysis using Price Level Index (PLI)</center>
+
+
+## Table of Contents
+
+* [Project Overview](#project-overview)
+* [Dataset Description](#dataset-description)
+* [Data Preprocessing](#data-preprocessing)
+* [Feature Engineering](#feature-engineering)
+* [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+* [Power BI Dashboard](#power-bi-dashboard)
+* [Dashboard Images](#dashboard-image)
+* [Machine Learning (Classification)](#machine-learning-classification)
+* [Model Testing](#model-testing)
+* [Limitations](#limitations)
+* [Future Work](#future-work)
+* [Time Series Forecasting](#time-series-forecasting)
+* [Key Economic Concepts](#key-economic-concepts)
+* [Tech Stack](#tech-stack)
+* [Project Outcome](#project-outcome)
+* [Prediction output Image](#prediction-output-image)
+* [Conclusion](#conclusion)
+* [Pro-Level Add-ons](#pro-level-add-ons)
+
+---
 
 ##  Project Overview
 
 This project analyzes global cost-of-living differences using the **World Bank Price Level Index (PLI)** dataset. The goal is to understand how expensive each country is relative to a common base (United States = 100) and to derive insights into purchasing power, economic structure, and global price disparities.
 
-> Core Question:
+> Core:
 > **“How expensive is each country compared to a common base (USA) over time?”** 
 
 ---
@@ -36,10 +60,6 @@ This project analyzes global cost-of-living differences using the **World Bank P
 * Converted data types (Year → int, PLI → float)
 * Handled missing values
 
-### Final Dataset Structure:
-
-| Country | Year | PLI |
-
 ---
 
 # Feature Engineering
@@ -47,9 +67,9 @@ This project analyzes global cost-of-living differences using the **World Bank P
 ### ✔ Created:
 
 * **Real_Power_Index**
-  [
+  \[
   Real\ Power = \frac{100}{PLI}
-  ]
+  \]
 
  Interpretation:
 
@@ -108,9 +128,9 @@ This project analyzes global cost-of-living differences using the **World Bank P
 * Top/Bottom country rankings
 * Category distribution
 
-### Purpose:
+## Dashboard Image
 
-* Convert data into **interactive insights**
+![App Screenshot](ss/dashboard.png)
 
 ---
 
@@ -214,17 +234,17 @@ Predict future PLI values
 
 # Key Economic Concepts
 
-## 🔹 Price Level Index (PLI)
+## Price Level Index (PLI)
 
-[
+\[
 PLI = \frac{PPP}{Exchange\ Rate} \times 100
-]
+\]
 
-## 🔹 Purchasing Power
+## Purchasing Power
 
-[
+\[
 Real\ Value = \frac{Nominal}{PLI} \times 100
-]
+\]
 
 -> Lower PLI → Higher purchasing power 
 
@@ -255,6 +275,11 @@ This project successfully:
 * Built an interactive dashboard
 * Developed a classification model
 * Prepared groundwork for time-series forecasting
+
+# Prediction output Image
+
+![App Screenshot](ss/output.png)
+![App Screenshot](ss/heatmap.png)
 
 ---
 
