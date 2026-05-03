@@ -66,12 +66,13 @@ This project analyzes global cost-of-living differences using the **World Bank P
 
 ### ✔ Created:
 
-* **Real_Power_Index**
+**Real_Power_Index**
+
 $$
 Real\ Power = \frac{100}{PLI}
 $$
 
- Interpretation:
+Interpretation:
 
 * Low PLI → High purchasing power
 * High PLI → Low purchasing power
