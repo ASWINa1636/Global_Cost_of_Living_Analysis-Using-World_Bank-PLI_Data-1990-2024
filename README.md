@@ -1,6 +1,6 @@
-# 🌍 Global Cost of Living Analysis using Price Level Index (PLI)
+# Global Cost of Living Analysis using Price Level Index (PLI)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes global cost-of-living differences using the **World Bank Price Level Index (PLI)** dataset. The goal is to understand how expensive each country is relative to a common base (United States = 100) and to derive insights into purchasing power, economic structure, and global price disparities.
 
@@ -9,7 +9,7 @@ This project analyzes global cost-of-living differences using the **World Bank P
 
 ---
 
-# 📊 Dataset Description
+# Dataset Description
 
 ### Source:
 
@@ -27,7 +27,7 @@ This project analyzes global cost-of-living differences using the **World Bank P
 
 ---
 
-# 🧹 Data Preprocessing
+# Data Preprocessing
 
 ### Steps Performed:
 
@@ -42,7 +42,7 @@ This project analyzes global cost-of-living differences using the **World Bank P
 
 ---
 
-# 🧠 Feature Engineering
+# Feature Engineering
 
 ### ✔ Created:
 
@@ -51,7 +51,7 @@ This project analyzes global cost-of-living differences using the **World Bank P
   Real\ Power = \frac{100}{PLI}
   ]
 
-👉 Interpretation:
+ Interpretation:
 
 * Low PLI → High purchasing power
 * High PLI → Low purchasing power
@@ -74,22 +74,22 @@ This project analyzes global cost-of-living differences using the **World Bank P
 
 # 📈 Exploratory Data Analysis (EDA)
 
-## 🔹 Global Trends
+## Global Trends
 
 * Analyzed average PLI over time
 * Observed convergence (2000–2012) and divergence (post-2013)
 
-## 🔹 Country-Level Analysis
+## Country-Level Analysis
 
 * Compared India, USA, China
 * Identified cost differences across economies
 
-## 🔹 Rankings
+## Rankings
 
 * Top 10 expensive countries
 * Top 10 cheapest countries
 
-## 🔹 Key Insights
+## Key Insights
 
 * Most countries have **PLI < 100 (cheaper than USA)**
 * Global distribution is **right-skewed**
@@ -97,7 +97,7 @@ This project analyzes global cost-of-living differences using the **World Bank P
 
 ---
 
-# 📊 Power BI Dashboard
+# Power BI Dashboard
 
 ### Features:
 
@@ -114,9 +114,9 @@ This project analyzes global cost-of-living differences using the **World Bank P
 
 ---
 
-# 🤖 Machine Learning (Classification)
+# Machine Learning (Classification)
 
-## 🎯 Objective:
+## Objective:
 
 Classify countries into:
 
@@ -126,7 +126,7 @@ Classify countries into:
 
 ---
 
-## 🔹 Features Used:
+## Features Used:
 
 * Real_Power_Index
 * Year
@@ -135,14 +135,14 @@ Classify countries into:
 
 ---
 
-## 🔹 Models Used:
+## Models Used:
 
 * Logistic Regression
 * Random Forest Classifier
 
 ---
 
-## 🔹 Evaluation Metrics:
+## Evaluation Metrics:
 
 * Accuracy
 * Confusion Matrix
@@ -150,26 +150,26 @@ Classify countries into:
 
 ---
 
-## 📊 Results:
+## Results:
 
 * Achieved **~99% accuracy**
 * Minimal misclassification between Moderate and Expensive
 
-### ⚠️ Important Insight:
+### Important Insight:
 
 * Original model had **data leakage (PLI → Category)**
 * Fixed to ensure meaningful learning
 
 ---
 
-## 🔍 Feature Importance
+## Feature Importance
 
 * Real_Power_Index → High influence
 * Year → Minimal impact
 
 ---
 
-# 🧪 Model Testing
+# Model Testing
 
 ### ✔ Methods Used:
 
@@ -180,7 +180,7 @@ Classify countries into:
 
 ---
 
-# ⚠️ Limitations
+# Limitations
 
 * Dataset lacks external economic features (GDP, inflation, etc.)
 * Classification problem is partially rule-based
@@ -188,9 +188,9 @@ Classify countries into:
 
 ---
 
-# 🔮 Future Work (Advanced ML)
+# Future Work (Advanced ML)
 
-## 📌 Time Series Forecasting
+## Time Series Forecasting
 
 ### Objective:
 
@@ -204,7 +204,7 @@ Predict future PLI values
 
 ---
 
-## 📌 Enhancements:
+## Enhancements:
 
 * Add GDP, inflation, exchange rates
 * Build hybrid ML + Time Series model
@@ -212,7 +212,7 @@ Predict future PLI values
 
 ---
 
-# 🧠 Key Economic Concepts
+# Key Economic Concepts
 
 ## 🔹 Price Level Index (PLI)
 
@@ -226,11 +226,11 @@ PLI = \frac{PPP}{Exchange\ Rate} \times 100
 Real\ Value = \frac{Nominal}{PLI} \times 100
 ]
 
-👉 Lower PLI → Higher purchasing power 
+-> Lower PLI → Higher purchasing power 
 
 ---
 
-# 🔥 Final Insights
+# Final Insights
 
 * Most countries are significantly **cheaper than developed economies**
 * Purchasing power varies widely across regions
@@ -247,7 +247,7 @@ Real\ Value = \frac{Nominal}{PLI} \times 100
 
 ---
 
-# 🚀 Project Outcome
+# Project Outcome
 
 This project successfully:
 
@@ -258,7 +258,7 @@ This project successfully:
 
 ---
 
-# 📌 Conclusion
+# Conclusion
 
 This project demonstrates how economic data can be transformed into meaningful insights using data analysis, visualization, and machine learning. It highlights global inequalities in cost of living and provides a foundation for predictive modeling of economic indicators.
 
