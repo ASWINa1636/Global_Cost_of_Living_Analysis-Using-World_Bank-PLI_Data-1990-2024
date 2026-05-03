@@ -67,9 +67,9 @@ This project analyzes global cost-of-living differences using the **World Bank P
 ### ✔ Created:
 
 * **Real_Power_Index**
-  \[
-  Real\ Power = \frac{100}{PLI}
-  \]
+$$
+Real\ Power = \frac{100}{PLI}
+$$
 
  Interpretation:
 
@@ -255,15 +255,15 @@ Predict future PLI values
 
 ## Price Level Index (PLI)
 
-\[
+$$
 PLI = \frac{PPP}{Exchange\ Rate} \times 100
-\]
+$$
 
 ## Purchasing Power
 
-\[
+$$
 Real\ Value = \frac{Nominal}{PLI} \times 100
-\]
+$$
 
 -> Lower PLI → Higher purchasing power 
 
@@ -297,7 +297,12 @@ This project successfully:
 
 # Prediction output Image
 
+- Prediction
+
 ![App Screenshot](ss/output.png)
+
+- Matrics
+
 ![App Screenshot](ss/heatmap.png)
 
 ---
