@@ -130,25 +130,22 @@ This project analyzes global cost-of-living differences using the **World Bank P
 
 ### Example Conversion
 
-  #### Assume:
+#### Assume:
 
-   * USA (base): PLI = 100
-   * India: PLI = 40
-   
-   Scenario: You have $100
+* USA (base): PLI = 100
+* India: PLI = 40
 
-    Purchasing Power:
+Scenario: You have $100 Purchasing Power: 
+| Country	| PLI	Real | Purchasing Power |
+|---|---|---|
+| USA	| 100 | $100|          
+| India | 40 | $250 equivalent |
 
-    |Country	|    PLI	Real  | Purchasing Power |
-    |---|---|---|
-    |USA	    |      100	    |   $100|          
-    |India	  |     40	      |  $250 equivalent |
+### Calculation:
 
-  ### Calculation:
+Real Value in India = 100 / 40 × 100 = 250
 
-    Real Value in India = 100 / 40 × 100 = 250
-
-    > Meaning: $100 in USA ≈ $250 worth of goods in India
+Meaning: $100 in USA ≈ $250 worth of goods in India
 
 ## Dashboard Image
 
