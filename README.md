@@ -1,5 +1,3 @@
-
-
 # 🌍 Global Cost of Living Analysis using Price Level Index (PLI)
 
 ## 📌 Project Overview
