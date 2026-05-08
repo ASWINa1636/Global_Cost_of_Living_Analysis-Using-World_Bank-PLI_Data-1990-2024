@@ -154,6 +154,9 @@ Meaning: $100 in USA ≈ $250 worth of goods in India
 
 ![App Video](ss/video.mp4)
 
+<video src="https://github.com/ASWINa1636/Global_Cost_of_Living_Analysis-Using-World_Bank-PLI_Data-1990-2024/blob/main/ss%2Fvideo.mp4" controls="controls" style="max-width: 100%;">
+</video>
+
 ---
 
 # Machine Learning (Classification)
