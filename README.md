@@ -150,7 +150,10 @@ Meaning: $100 in USA ≈ $250 worth of goods in India
 
 ## Dashboard Image
 
-![App Screenshot](ss/dashboard.png)
+![App Screenshot](ss/output1.png)
+
+
+![App Videoo](ss/video.mp4)
 
 ---
 
